@@ -77,14 +77,14 @@ public void testDuplicates(){
 	arr[0] = 2;
 	arr[1] = 2;
 	arr[2] = 2;
-	arr[3] = 8;
-	arr[4] = 8;
+	arr[3] = 6;
+	arr[4] = 6;
 	int[] Sortedarr = new int[5];
 	Sortedarr[0] = 2;
 	Sortedarr[1] = 2;
 	Sortedarr[2] = 2;
-	Sortedarr[3] = 8;
-	Sortedarr[4] = 8;
+	Sortedarr[3] = 6;
+	Sortedarr[4] = 6;
 	SelectionSort sorter=new SelectionSort();
 	arr=sorter.basicSelectionSort(arr);
 	assertArrayEquals(Sortedarr,arr);
